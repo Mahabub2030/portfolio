@@ -3,7 +3,7 @@ const Education = () => {
   const education = [
     {
       degree: "Bachelor of Science (BSc)",
-      institution: "Bangladesh univrcity dhaka",
+      institution: "Bangladesh University Dhaka",
       year: "2016 - 2020",
       description:
         "Graduated with a strong foundation in critical thinking and problem-solving.",

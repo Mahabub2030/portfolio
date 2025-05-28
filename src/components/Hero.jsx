@@ -32,8 +32,8 @@ const Hero = () => {
           <span></span>
         </div>
         {/* <div className='bg-black inset-0 opacity-65 absolute '></div> */}
-        <div className="max-w-7xl mt-24 mx-auto items-center flex flex-col md:flex-row gap-16 md:gap-40 justify-between">
-          <div className="md:space-y-6  px-4">
+        <div className="max-w-7xl mt-10 md:mt-52 mx-auto items-center flex flex-col lg:flex-row md:flex-col   gap-4 md:gap-40 justify-between">
+          <div className="md:space-y-6 px-4">
             <motion.h1
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -114,7 +114,7 @@ const Hero = () => {
               transition={{ duration: 1.4, delay: 0 }}
               src={Profile}
               alt=""
-              className="rounded-full border border-blue-600 md:w-[500px] w-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)]   shadow-blue-500 "
+              className="rounded-full border border-blue-600 w-[350px] sm:w-[600px] md:w-[600px] mb-10 shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500"
             />
           </div>
         </div>
